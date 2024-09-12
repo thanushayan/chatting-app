@@ -28,7 +28,7 @@ try{
     username,
     password:hashedPassword,
     gender,
-    profile: gender === "male" ? boyProfilePic : girlProfilePic
+    profilePic: gender === "male" ? boyProfilePic : girlProfilePic
    })
 
  if(newUser){
